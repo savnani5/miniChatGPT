@@ -1,7 +1,6 @@
 # miniChatGPT
 
-A simple RLHF (Reinforcement Learing from Human Feedback) layer on top of GPT model to test backpropagation through the reward function rather than use policy gradient. It works for a very basic example where you incentivise the network to produce words containing 'and'. The trick is to use the Straight-Through Gumbel-Softmax estimator.
-
+A simple RLHF (Reinforcement Learing from Human Feedback) layer on top of GPT model to test backpropagation through the reward function using Straight-Through Gumbel-Softmax estimator rather than use policy gradient.
 
 Prepare data:
 
