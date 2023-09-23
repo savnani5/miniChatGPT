@@ -1,6 +1,6 @@
 # miniChatGPT
 
-A simple RLHF (Reinforcement Learing from Human Feedback) layer on top of GPT model to test backpropagation through the reward function using Straight-Through Gumbel-Softmax estimator rather than use policy gradient.
+A simple RLHF (Reinforcement Learing from Human Feedback) layer on top of GPT model to test backpropagation through the reward function using Straight-Through Gumbel-Softmax estimator rather than policy gradient.
 
 Prepare data:
 
