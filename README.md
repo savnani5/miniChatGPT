@@ -26,7 +26,7 @@ This creates a multihead model on top of the existing one. Once the reward model
 $ python train_rl.py # settings in config/config_rl.yaml
 ```
 
-The default config uses the Gumbel trick but it can be set to PG and it will do policy gradient instead (the latter still needs a critic implementation etc). I have validated that the Gumbel method works given that the preceding steps also worked. I am curious to see if this would scale to large models - let me know if you're able to test this. 
+The default config uses the Gumbel trick but it can be set to PG and it will do policy gradient instead (the latter still needs a critic implementation etc).
 
 Model output after a short amount of training produces results like:
 
